@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 770px;
+    min-height: 618px;
+    margin: auto;
+}
+
+.instagram-phone{
+    background-image: url("../img/phones.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 618px;
+    width: 50%;
+}
+
+.phone-screen{
+    display: flex;
+    height: 618px;
+    width: 385px;
+    margin: 44px;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-continue{
+    height: 540px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dedede;
+    height:auto;
+    width: 350px; 
+    justify-content: center;
+    align-items: center; 
+    border-radius: 1px;
+}
+
+.group img{
+    height: 61px;
+    width: 185px; 
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.group button{
+    height: 36px;
+    width: 269px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b2dffc;
+    color: white;
+    margin-top: 20px;
+}
+
+.group input{
+    background-color: #fafafa;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    height: 36px;
+    width: 262px;
+    display: block;
+    margin-left: auto;   
+    margin-right: auto; 
+    margin-bottom: -10px;
+    border-radius: 1px;
+}
+
+.separator{
+    display: flex;
+    margin: 30px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator h3{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #8e8e8e;
+}
+
+.separator div{
+    border: 0.5px solid #dedede;
+    background-color: #dedede;
+    height: 0;
+    width: 110px;
+}
+
+.group > a{
+    font-size: 12px;
+}
+
+.group ul{
+    list-style-image: url("../img/face.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px   
+}
+
+.group ul a{
+    color: #385185;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+}
+
+.row > h3 > a{
+    color: #0095f6;
+    margin-left: 5px;
+}
+
+.get-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 101px;
+    
+}
+
+.get-app-img{
+    display: flex; 
+}
+
+.get-app-img img{
+    height: 43px;
+    width: 136px;
+    padding: 0px 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+footer p, footer a{
+    color: #8e8e8e;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .instagram-wrapper{
+        width: 385px;
+    }
+
+    .instagram-phone{
+        display: none;
+        
+    }
+    
+    .instagram-continue{
+        width: 100%;
+    }
+
+}
